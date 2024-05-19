@@ -61,7 +61,7 @@ const GoogleMapComponent: React.FC = () => {
   };
 
   return (
-    <LoadScript googleMapsApiKey="AIzaSyBlefxgbzynrXZdt5bxkcJCg4j0NQa0_xU">
+    <LoadScript googleMapsApiKey="">
       <div>
         <button onClick={deleteAllMarkers}>Delete All Markers</button>
       </div>
